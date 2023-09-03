@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Philosopher&family=Rubik&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
 
 * {
+  font-family: 'ABeeZee', sans-serif;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -11,6 +13,7 @@ nav {
   top: 0px;
   z-index: 100 !important;
 }
+
 .logo {
   width: 15vw;
 }
@@ -18,6 +21,7 @@ nav {
 #logo-icon {
   width: 140px;
 }
+
 .logo-title {
   color: #012555;
   font-family: "Bai Jamjuree", sans-serif;
@@ -32,27 +36,28 @@ nav {
   line-height: 38px;
   letter-spacing: -0.869px;
 }
+
 .logo-title {
   border-right: 1px solid #dadada;
   padding-right: 8px;
 }
-.nav-list > li > a {
+
+.nav-list>li>a {
   color: var(--Gray-2, #4f4f4f);
-  font-family: "Philosopher", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 155%;
   letter-spacing: 0.16px;
 }
-.sec-logo > img {
+
+.sec-logo>img {
   width: 77px;
   height: 35px;
 }
 
 header {
   color: #fff;
-  font-family: "Philosopher", sans-serif;
   font-size: 14px;
   font-style: italic;
   font-weight: 400;
@@ -66,13 +71,14 @@ header {
 .hero {
   margin-top: 100px;
 }
-.hero > div:nth-child(1) {
+
+.hero>div:nth-child(1) {
   width: 45vw;
   padding-top: 50px;
 }
-.hero > div:nth-child(1) > h1:nth-child(1) {
+
+.hero>div:nth-child(1)>h1:nth-child(1) {
   color: #2b2f34;
-  font-family: "Philosopher", sans-serif;
   font-size: 50px;
   font-style: italic;
   font-weight: 400;
@@ -80,18 +86,18 @@ header {
   letter-spacing: -0.75px;
   margin-left: 30px;
 }
-.hero > div:nth-child(1) > h1:nth-child(2) > span {
+
+.hero>div:nth-child(1)>h1:nth-child(2)>span {
   color: #2f80ed;
-  font-family: "Philosopher", sans-serif;
   font-size: 50px;
   font-style: italic;
   font-weight: 400;
   line-height: 130%;
   letter-spacing: -0.75px;
 }
-.hero > div:nth-child(1) > h1:nth-child(2) {
+
+.hero>div:nth-child(1)>h1:nth-child(2) {
   color: #2b2f34;
-  font-family: "Philosopher", sans-serif;
   font-size: 50px;
   font-style: italic;
   font-weight: 400;
@@ -99,9 +105,9 @@ header {
   letter-spacing: -0.75px;
   margin-left: 30px;
 }
-.hero > div:nth-child(1) > p {
+
+.hero>div:nth-child(1)>p {
   color: #595959;
-  font-family: "Philosopher", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -109,27 +115,32 @@ header {
   letter-spacing: 0.36px;
   margin-left: 30px;
 }
+
 .pic {
   position: relative;
 }
-.pic > img:first-child {
+
+.pic>img:first-child {
   position: absolute;
   top: 0px;
   width: 100%;
   z-index: 50;
 }
-.pic > img:last-child {
+
+.pic>img:last-child {
   position: absolute;
   top: -30px;
   right: -30px;
   z-index: 10;
 }
-.hero > div:nth-child(2) {
+
+.hero>div:nth-child(2) {
   width: 45vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .form {
   display: flex;
   padding: 28px 24px 32px 24px;
@@ -140,28 +151,29 @@ header {
   background: #fff;
   box-shadow: 0px 25px 54px 0px rgba(0, 0, 0, 0.12);
 }
-.form > h2 {
+
+.form>h2 {
   width: 291px;
   color: #2b2f34;
   text-align: center;
-  font-family: "Philosopher", sans-serif;
   font-size: 32px;
   font-style: italic;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: -0.48px;
 }
-.form > p {
+
+.form>p {
   width: 278px;
   color: #818d9d;
   text-align: center;
-  font-family: "Philosopher", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
   margin-top: -30px;
 }
+
 .input-data {
   margin-top: -20px;
   display: flex;
@@ -172,14 +184,17 @@ header {
   border-radius: 8px;
   background: #fafafa;
 }
-.input-data > input {
+
+.input-data>input {
   border: none;
   background-color: transparent;
 }
-.input-data > input:focus {
+
+.input-data>input:focus {
   outline: none;
 }
-.form > button {
+
+.form>button {
   display: flex;
   width: 367px;
   padding: 14px 6px 14px 16px;
@@ -190,28 +205,29 @@ header {
   border-radius: 8px;
   background: linear-gradient(277deg, #992fed 0%, #2f80ed 100%);
   color: #fff;
-  font-family: "Philosopher", sans-serif;
   font-size: 18px;
   font-style: italic;
   font-weight: 400;
   line-height: 150%;
 }
-.form > button:hover {
-  scale: 1.1;
+
+.form>button:hover {
+  scale: 0.9;
+  background: linear-gradient(277deg, #992fed 0%, #2f80ed 100%);
 }
-.form > p:last-child {
+
+.form>p:last-child {
   margin-top: 3px;
   color: #818d9d;
   text-align: center;
-  font-family: "Philosopher", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
 }
-.form > p:last-child > span {
+
+.form>p:last-child>span {
   color: #2f80ed;
-  font-family: "Philosopher", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -228,9 +244,9 @@ header {
   background: #ecf8ff;
   margin-top: 100px;
 }
-.courses-offered > div:first-child > p {
+
+.courses-offered>div:first-child>p {
   text-align: center;
-  font-family: "Philosopher", sans-serif;
   font-size: 20px;
   font-style: italic;
   font-weight: 400;
@@ -242,16 +258,17 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.courses-offered > div:first-child > h1 {
+
+.courses-offered>div:first-child>h1 {
   color: #2f80ed;
   text-align: center;
-  font-family: "Philosopher", sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: -0.54px;
 }
+
 .card1 {
   max-width: 498px;
   height: 563px;
@@ -261,18 +278,25 @@ header {
   padding: 10px;
   margin-left: 15px;
 }
-.card1 > div:first-child > img {
+
+.card1>div:first-child>img {
   margin: -60px 0px 0px 20px;
 }
-.card1 > h1 {
+
+.card1:hover,
+.card2:hover {
+  background: linear-gradient(#2f81ed7c, #972fed66);
+}
+
+.card1>h1 {
   color: #2b2f34;
-  font-family: "Philosopher", sans-serif;
   font-size: 26px;
   font-style: italic;
   font-weight: 400;
   line-height: normal;
 }
-.card1 > div:nth-child(3) > div {
+
+.card1>div:nth-child(3)>div {
   display: flex;
   padding: 6px 15px;
   align-items: flex-start;
@@ -280,44 +304,45 @@ header {
   border-radius: 7px;
   background: #e0f3ff;
   color: #1d78b0;
-  font-family: "Philosopher", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   margin-right: 10px;
 }
-.card1 > p {
+
+.card1>p {
   color: #565656;
-  font-family: "Philosopher", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
   margin-top: 10px;
 }
+
 .details {
   width: 90%;
 }
-.details > div > p:first-child {
+
+.details>div>p:first-child {
   color: #000;
-  font-family: "Philosopher", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.32px;
 }
-.details > div > p:last-child {
+
+.details>div>p:last-child {
   color: #2b2f34;
-  font-family: "Philosopher", sans-serif;
   font-size: 16px;
   font-style: italic;
   font-weight: 400;
   line-height: normal;
   width: 175px;
 }
-.buttons > button:nth-child(1) {
+
+.buttons>button:nth-child(1) {
   display: flex;
   width: 203px;
   padding: 14px 6px;
@@ -328,13 +353,13 @@ header {
   border: 1px solid #2f80ed;
   background: #fff;
   color: #2f80ed;
-  font-family: "Philosopher", sans-serif;
   font-size: 18px;
   font-style: italic;
   font-weight: 400;
   line-height: 150%;
 }
-.buttons > button:nth-child(2) {
+
+.buttons>button:nth-child(2) {
   display: flex;
   width: 210px;
   padding: 14px 6px 14px 16px;
@@ -345,13 +370,13 @@ header {
   border-radius: 8px;
   background: #2f80ed;
   color: #fff;
-  font-family: "Philosopher", sans-serif;
   font-size: 18px;
   font-style: italic;
   font-weight: 400;
   line-height: 150%;
   margin-left: 10px;
 }
+
 .card2 {
   max-width: 498px;
   height: 563px;
@@ -361,15 +386,16 @@ header {
   padding: 30px 10px 10px 10px;
   margin-left: 15px;
 }
-.card2 > h1 {
+
+.card2>h1 {
   color: #2b2f34;
-  font-family: "Philosopher", sans-serif;
   font-size: 26px;
   font-style: italic;
   font-weight: 400;
   line-height: normal;
 }
-.card2 > div:nth-child(2) > div {
+
+.card2>div:nth-child(2)>div {
   display: flex;
   padding: 6px 15px;
   align-items: flex-start;
@@ -377,44 +403,45 @@ header {
   border-radius: 7px;
   background: #ffeed8;
   color: #965400;
-  font-family: "Philosopher", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   margin-right: 10px;
 }
-.card2 > p {
+
+.card2>p {
   color: #565656;
-  font-family: "Philosopher", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
   margin-top: 10px;
 }
+
 .details {
   width: 90%;
 }
-.details > div > p:first-child {
+
+.details>div>p:first-child {
   color: #000;
-  font-family: "Philosopher", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.32px;
 }
-.details > div > p:last-child {
+
+.details>div>p:last-child {
   color: #2b2f34;
-  font-family: "Philosopher", sans-serif;
   font-size: 16px;
   font-style: italic;
   font-weight: 400;
   line-height: normal;
   width: 175px;
 }
-.buttons > button:nth-child(1) {
+
+.buttons>button:nth-child(1) {
   display: flex;
   width: 203px;
   padding: 14px 6px;
@@ -425,13 +452,13 @@ header {
   border: 1px solid #2f80ed;
   background: #fff;
   color: #2f80ed;
-  font-family: "Philosopher", sans-serif;
   font-size: 18px;
   font-style: italic;
   font-weight: 400;
   line-height: 150%;
 }
-.buttons > button:nth-child(2) {
+
+.buttons>button:nth-child(2) {
   display: flex;
   width: 210px;
   padding: 14px 6px 14px 16px;
@@ -442,26 +469,29 @@ header {
   border-radius: 8px;
   background: #2f80ed;
   color: #fff;
-  font-family: "Philosopher", sans-serif;
   font-size: 18px;
   font-style: italic;
   font-weight: 400;
   line-height: 150%;
   margin-left: 10px;
 }
-.buttons > button:nth-child(1):hover {
-  scale: 1.1;
+
+.buttons>button:nth-child(1):hover {
+  scale: 0.9;
+  background: linear-gradient(277deg, #992fed 0%, #2f80ed 100%);
 }
-.buttons > button:nth-child(2):hover {
-  scale: 1.1;
+
+.buttons>button:nth-child(2):hover {
+  scale: 0.9;
+  background: linear-gradient(277deg, #992fed 0%, #2f80ed 100%);
 }
 
 .hiring-partners {
   margin-top: 50px;
 }
-.hiring-partners > div:nth-child(1) > p:first-child {
+
+.hiring-partners>div:nth-child(1)>p:first-child {
   text-align: center;
-  font-family: "Philosopher", sans-serif;
   font-size: 16px;
   font-style: italic;
   font-weight: 400;
@@ -473,28 +503,28 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.hiring-partners > div:nth-child(1) > h1 {
+
+.hiring-partners>div:nth-child(1)>h1 {
   color: #2b2f34;
   text-align: center;
-  font-family: "Philosopher", sans-serif;
   font-size: 42px;
   font-style: italic;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: -0.63px;
 }
-.hiring-partners > div:nth-child(1) > h1 > span {
+
+.hiring-partners>div:nth-child(1)>h1>span {
   color: #2f80ed;
-  font-family: "Philosopher", sans-serif;
   font-size: 42px;
   font-style: italic;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: -0.63px;
 }
-.hiring-partners > div:nth-child(1) > p:last-child {
+
+.hiring-partners>div:nth-child(1)>p:last-child {
   color: #595959;
-  font-family: "Philosopher", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -507,46 +537,52 @@ header {
   width: 90%;
   margin: auto;
 }
-.companies > img {
+
+.companies>img {
   width: 140px;
   object-fit: contain;
   margin: 30px;
   transition: scale 1s linear;
 }
-.companies > img:hover {
+
+.companies>img:hover {
   scale: 1.2;
 }
+
 .button {
   margin-top: 30px;
   transition: scale 2s linear;
+  background: linear-gradient(277deg, #992fed 0%, #2f80ed 100%);
 }
-.button > img:hover {
+
+.button>img:hover {
   scale: 1.2;
 }
 
 .students {
   padding: 96px 107px 138px 107px;
 }
-.students > h1 {
+
+.students>h1 {
   color: #2b2f34;
   text-align: center;
-  font-family: "Philosopher", sans-serif;
   font-size: 42px;
   font-style: italic;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: -0.63px;
 }
-.students > p {
+
+.students>p {
   color: #595959;
   text-align: center;
-  font-family: "Philosopher", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 130%;
   letter-spacing: 0.36px;
 }
+
 .contain {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -563,6 +599,7 @@ header {
     "d e f";
   grid-gap: 5px;
 }
+
 .virat {
   grid-area: a;
   padding: 24px;
@@ -571,52 +608,56 @@ header {
   background: #fff;
   box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
 }
+
 .profile {
   width: 100%;
   justify-content: space-between;
 }
-.profile > img:first-child {
+
+.profile>img:first-child {
   width: 64px;
   height: 64px;
 }
-.profile > img:last-child {
+
+.profile>img:last-child {
   width: 26px;
   height: 26px;
 }
-.profile > div > h4 {
+
+.profile>div>h4 {
   color: #000;
-  font-family: "Philosopher", sans-serif;
   font-size: 22px;
   font-style: italic;
   font-weight: 400;
   line-height: 150%;
 }
-.profile > div > p {
+
+.profile>div>p {
   color: #676767;
   text-align: center;
-  font-family: "Philosopher", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 602;
   line-height: 150%;
 }
+
 .para {
   color: #676767;
-  font-family: "Philosopher", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
 }
+
 .date {
   color: #676767;
-  font-family: "Philosopher", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
   margin-top: 20px;
 }
+
 .ishan {
   grid-area: b;
   padding: 24px;
@@ -625,6 +666,7 @@ header {
   background: #fff;
   box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
 }
+
 .sehwag {
   grid-area: c;
   padding: 24px;
@@ -633,6 +675,7 @@ header {
   background: #fff;
   box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
 }
+
 .rohit {
   grid-area: d;
   padding: 24px;
@@ -641,6 +684,7 @@ header {
   background: #fff;
   box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
 }
+
 .ahmed {
   grid-area: e;
   padding: 24px;
@@ -649,6 +693,7 @@ header {
   background: #fff;
   box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
 }
+
 .sachin {
   grid-area: f;
   padding: 24px;
@@ -662,39 +707,50 @@ header {
   .virat {
     overflow: auto;
   }
+
   .ishan {
     overflow: auto;
   }
+
   .sehwag {
     overflow: auto;
   }
+
   .rohit {
     overflow: auto;
   }
+
   .ahmed {
     overflow: auto;
   }
+
   .sachin {
     overflow: auto;
   }
+
   ::-webkit-scrollbar {
     display: none;
   }
 }
+
 @media screen and (max-width: 991px) {
   .hero {
     flex-direction: column;
     align-items: center;
   }
-  .hero > div:nth-child(1) > div > img:last-child {
+
+  .hero>div:nth-child(1)>div>img:last-child {
     display: none;
   }
-  .hero > div:nth-child(2) {
+
+  .hero>div:nth-child(2) {
     margin-top: 200px;
   }
+
   .students {
     padding: 0px 0px 0px 0px;
   }
+
   .contain {
     display: flex;
     flex-wrap: wrap;
@@ -702,33 +758,42 @@ header {
 }
 
 @media screen and (max-width: 430px) {
-  .hero > div:nth-child(1) {
+  .hero>div:nth-child(1) {
     display: none;
   }
-  .hero > div:nth-child(2) {
+
+  .hero>div:nth-child(2) {
     margin-top: 0px;
   }
+
   .form {
     width: 300px;
   }
+
   .input-data {
     width: 100%;
   }
-  .form > button {
+
+  .form>button {
     width: 100%;
   }
+
   .courses-offered {
     overflow: auto;
   }
+
   .card1 {
     margin-left: 90px;
   }
+
   .card2 {
     margin-left: 90px;
   }
+
   ::-webkit-scrollbar {
     display: none;
   }
+
   .students {
     margin-top: 50px;
   }
